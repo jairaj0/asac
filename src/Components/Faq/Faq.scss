@@ -1,0 +1,102 @@
+.faq {
+    background-image: url('../../Assets/FAQ-and-Footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+    padding-bottom: 0;
+
+    h1.title {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    ._faq {
+        padding: 0 4rem;
+    }
+
+    .vis {
+        transition: opacity 2s linear;
+        transform: translate(0);
+        opacity: 1;
+    }
+
+    .hid {
+        transform: translate(9999px);
+        opacity: 0;
+    }
+
+    .q {
+        background-color: #242325;
+        width: inherit;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        transition: all 1s ease-in-out;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+        
+
+        ._ans {
+            transition: all .5s ease-in-out;
+            height: 0;
+            overflow: hidden;
+
+            hr{
+                border-color: gray;
+            }
+            
+            .answer {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                font-size: 20px;
+                color: gray;
+            }
+
+            p{
+                font-size: 16px;
+                margin-top: 1rem;
+                color: gray;
+                span{
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .question {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        button.ans {
+            height: 30px;
+            width: 30px;
+            color: #242325;
+            font-weight: 900;
+            font-size: 25px;
+            border-radius: 50%;
+            border: none;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .faq{
+        ._faq{
+            padding: 0 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .faq{
+        ._faq{
+            padding: 0 1rem;
+            .q{
+                padding: 1rem;
+            }
+        }
+    }
+}

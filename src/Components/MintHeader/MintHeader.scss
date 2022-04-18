@@ -1,0 +1,70 @@
+.MintHeader{
+    width: 100%;
+    flex-direction: column;
+    h1.title{
+        font-family: bios-bold;
+        color: #4DC1D4;
+        font-size: 65px;
+        text-align: center;
+        width: 60%;
+        margin: 3rem 0;
+    }
+    p.discr{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #ffffff8f;
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .MintHeader {
+        h1.title{
+            font-size: 55px;
+        }
+    }    
+}
+
+@media only screen and (max-width: 1200px) {
+    .MintHeader {
+        h1.title{
+            font-size: 50px;
+        }
+    }    
+}
+
+@media only screen and (max-width: 1100px) {
+    .MintHeader {
+        h1.title{
+            font-size: 45px;
+        }
+    }    
+}
+
+@media only screen and (max-width: 1000px) {
+    .MintHeader {
+        h1.title{
+            font-size: 40px;
+        }
+    }    
+}
+@media only screen and (max-width: 750px) {
+    .MintHeader {
+        h1.title{
+            font-size: 40px;
+            width: 80%;
+        }
+        p.discr{
+            width: 80%;
+        }
+    }    
+}
+@media only screen and (max-width: 550px) {
+    .MintHeader {
+        h1.title{
+            font-size: 35px;
+            width: 90%;
+        }
+    }    
+}

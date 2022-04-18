@@ -1,0 +1,78 @@
+.countdown .timeBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.countdown .timeBox h1 {
+    border: 2px solid #ffffff8f;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    color: #dda15e;
+    border-radius: 50%;
+}
+
+.countdown span {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.countdown span .cir {
+    margin: 1rem;
+    width: 20px;
+    height: 20px;
+    border-radius: .1rem 1rem .1rem 1rem;
+    background-color: #ffffff8f;
+}
+
+.countdown p {
+    margin-top: 1rem;
+    font-family: bios-bold;
+    color: #ffffff8f;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .countdown .timeBox h1 {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .countdown span {
+        margin-bottom: 2.5rem;
+    }
+
+    .countdown span .cir {
+        margin: .5rem;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .countdown .timeBox h1 {
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .countdown span {
+        margin-bottom: 1.9rem;
+    }
+
+    .countdown span .cir {
+        margin-right: .5rem;
+        width: 5px;
+        height: 5px;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+}

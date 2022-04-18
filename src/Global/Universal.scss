@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, p, a, h1, h2, h3, h4, h5, h6 , ul li {
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #18181B;
+}
+
+@font-face {
+    font-family: bios-regular;
+    src: url(../Assets/Bios-Regular.ttf);
+  }
+  @font-face {
+    font-family: bios-bold;
+    src: url(../Assets/Bios-Bold.ttf);
+  }
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 2rem;
+    height: inherit;
+    margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.swiper-wrapper{
+    transition-timing-function : linear;
+  }
+
+  .warraperSlider{
+      .pic{
+          width: 200px;
+          height: 200px;
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+
+      &:first-child{
+          margin-bottom: 1rem;
+      }
+  }
