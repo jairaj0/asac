@@ -15,7 +15,7 @@ export const Countdown = () => {
   const clean = () => clearInterval(interval.current);
 
   const startTimer = () => {
-    const CountdownDate = new Date("apr 19 , 2022 01:10:00").getTime();
+    const CountdownDate = new Date("aug 30 , 2022 01:10:00").getTime();
 
     
 
